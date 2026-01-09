@@ -1,4 +1,5 @@
 from simpletransformers.seq2seq import Seq2SeqModel
+import os
 
 def reload_model():
     model_reloaded = Seq2SeqModel(
